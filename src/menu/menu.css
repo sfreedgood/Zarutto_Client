@@ -20,9 +20,7 @@
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-.content{
 
-}
 .menu-head {
     text-align: left;
     font-family: "SFProText";
@@ -50,6 +48,19 @@
 
 }
 
+.content {
+  font-size: 1em;
+}
+
+.item-detail {
+  font-size: .7em;
+}
+
+.soda {
+  margin: 0;
+  padding: 0;
+}
+
 .menu-item span{
   color: #212121;
   font-size: .9em;
@@ -57,10 +68,6 @@
 
 .menu-item .content{
 font-weight: 600;
-}
-
-.menu-item .price{
-
 }
 
 .menu-item .item-detail{

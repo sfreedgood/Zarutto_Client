@@ -1,6 +1,5 @@
 import React from "react"
 import "../../menu.css"
-import classNames from "classnames"
 
 const AppetizerContent = () => {
 
@@ -8,7 +7,7 @@ const AppetizerContent = () => {
         <div className="menu-section-container">
             <div className="menu-head d-flex flex-row mb-0">
               <span className="">Gyoza</span>
-              <span className="item-detail font-weight-light">(6pcs)</span>
+              <span className="font-weight-light">(6pcs)</span>
             </div>
 
             <div className="menu-item d-flex flex-row dots">

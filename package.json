@@ -11,7 +11,8 @@
     "react-dom": "^16.8.2",
     "react-map-gl": "^4.0.10",
     "react-scripts": "2.1.5",
-    "reactstrap": "^7.1.0"
+    "reactstrap": "^7.1.0",
+    "surge": "^0.20.1"
   },
   "scripts": {
     "start": "react-scripts start",
