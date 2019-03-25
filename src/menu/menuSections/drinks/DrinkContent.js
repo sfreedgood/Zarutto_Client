@@ -113,9 +113,9 @@ const DrinkContent = () => {
                 <span className="price ml-auto ml-auto dots-right">$8</span>
             </div>
 
-            <div className="menu-head">
+            <div className="menu-head d-flex flex-column mb-2 dots">
                 <span className="dots-left">Soft Drinks</span>
-                <span className="content ml-auto ml-auto dots-right">$3.5</span>
+                <span className="price ml-auto ml-auto dots-right">$3.5</span>
             </div>
             <div className="menu-item flex-column mb-2 dots">
                 <span className="soda">Coke</span>
