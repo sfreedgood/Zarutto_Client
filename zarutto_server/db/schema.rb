@@ -18,11 +18,13 @@ ActiveRecord::Schema.define(version: 2019_05_25_205406) do
   create_table "menus", force: :cascade do |t|
     t.string "course_type"
     t.string "item_name"
-    t.float "price"
+    t.string "price"
     t.text "ingredients"
     t.text "details"
     t.string "style_type"
-    t.integer "pieces"
+    t.string "pieces"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
