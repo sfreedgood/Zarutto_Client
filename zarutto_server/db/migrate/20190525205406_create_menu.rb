@@ -7,7 +7,8 @@ class CreateMenu < ActiveRecord::Migration[5.2]
       t.text :ingredients
       t.text :details
       t.string :style_type
-      t.int :pieces
+      t.integer :pieces
+      t.timestamps
     end
   end
 end
