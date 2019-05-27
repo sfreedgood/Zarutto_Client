@@ -3216,3 +3216,329 @@ Processing by MenusController#index as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/menus" for ::1 at 2019-05-26 13:22:07 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/samuelfreedgood/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (5.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:3
+Completed 200 OK in 25ms (Views: 12.8ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-26 13:23:19 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:3
+Completed 200 OK in 18ms (Views: 14.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-26 13:23:19 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:3
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus/1" for ::1 at 2019-05-26 13:24:47 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menus/1" for ::1 at 2019-05-26 13:25:08 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMenu Load (3.9ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:7
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/menus/1" for ::1 at 2019-05-26 13:32:49 -0400
+  
+SyntaxError (/Users/samuelfreedgood/Coding/GA/team-pentagram-zarutto/client/zarutto_server/app/controllers/menus_controller.rb:16: syntax error, unexpected ':', expecting ')'
+...ed(:menu).permit(:course_type :item_name :price :ingredients...
+...                              ^
+/Users/samuelfreedgood/Coding/GA/team-pentagram-zarutto/client/zarutto_server/app/controllers/menus_controller.rb:16: syntax error, unexpected ':', expecting end
+...course_type :item_name :price :ingredients :details :style_t...
+...                              ^
+/Users/samuelfreedgood/Coding/GA/team-pentagram-zarutto/client/zarutto_server/app/controllers/menus_controller.rb:16: syntax error, unexpected ':', expecting end
+... :price :ingredients :details :style_type :pieces)
+...                              ^
+/Users/samuelfreedgood/Coding/GA/team-pentagram-zarutto/client/zarutto_server/app/controllers/menus_controller.rb:16: syntax error, unexpected ')', expecting end
+...s :details :style_type :pieces)
+...                              ^):
+  
+app/controllers/menus_controller.rb:16: syntax error, unexpected ':', expecting ')'
+app/controllers/menus_controller.rb:16: syntax error, unexpected ':', expecting end
+app/controllers/menus_controller.rb:16: syntax error, unexpected ':', expecting end
+app/controllers/menus_controller.rb:16: syntax error, unexpected ')', expecting end
+Started GET "/menus/1" for ::1 at 2019-05-26 13:33:40 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: menu):
+  
+app/controllers/menus_controller.rb:16:in `menu_params'
+app/controllers/menus_controller.rb:8:in `show'
+Started GET "/menus/1" for ::1 at 2019-05-26 13:35:38 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:8
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 5.1ms)
+
+
+  
+NameError (undefined local variable or method `song' for #<MenusController:0x00007fa212917498>):
+  
+app/controllers/menus_controller.rb:9:in `show'
+Started GET "/menus/1" for ::1 at 2019-05-26 13:36:11 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 11ms (Views: 0.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 13:51:24 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/samuelfreedgood/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 13:51:33 -0400
+Processing by MenusController#index as */*
+  Parameters: {"title"=>"HI", "url"=>"this is a url yo", "menu"=>{}}
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus/1" for ::1 at 2019-05-27 13:51:51 -0400
+Processing by MenusController#show as */*
+  Parameters: {"title"=>"HI", "url"=>"this is a url yo", "id"=>"1", "menu"=>{}}
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/menus/" for ::1 at 2019-05-27 13:53:25 -0400
+Processing by MenusController#create as */*
+  Parameters: {"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6", "menu"=>{"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6"}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: menu_item):
+  
+app/controllers/menus_controller.rb:36:in `menu_params'
+app/controllers/menus_controller.rb:13:in `create'
+Started POST "/menus/" for ::1 at 2019-05-27 13:54:19 -0400
+Processing by MenusController#create as */*
+  Parameters: {"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6", "menu"=>{"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6"}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: menu_item):
+  
+app/controllers/menus_controller.rb:36:in `menu_params'
+app/controllers/menus_controller.rb:13:in `create'
+Started POST "/menus/" for ::1 at 2019-05-27 13:55:32 -0400
+Error occurred while parsing request parameters.
+Contents:
+
+{
+    "id": 12345
+    "course_type": "Appetizers",
+    "item_name": "Test",
+    "price": "100",
+    "ingredients": null,
+    "details": "Imagination",
+    "style_type": "None",
+    "pieces": "6"
+}
+  
+ActionDispatch::Http::Parameters::ParseError (767: unexpected token at '{
+    "id": 12345
+    "course_type": "Appetizers",
+    "item_name": "Test",
+    "price": "100",
+    "ingredients": null,
+    "details": "Imagination",
+    "style_type": "None",
+    "pieces": "6"
+}'):
+  
+actionpack (5.2.3) lib/action_dispatch/http/parameters.rb:117:in `rescue in parse_formatted_parameters'
+actionpack (5.2.3) lib/action_dispatch/http/parameters.rb:111:in `parse_formatted_parameters'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:381:in `block in POST'
+rack (2.0.7) lib/rack/request.rb:59:in `fetch'
+rack (2.0.7) lib/rack/request.rb:59:in `fetch_header'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:380:in `POST'
+actionpack (5.2.3) lib/action_dispatch/http/parameters.rb:55:in `parameters'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:290:in `_wrapper_enabled?'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:244:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/menus/" for ::1 at 2019-05-27 13:55:57 -0400
+Processing by MenusController#create as */*
+  Parameters: {"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6", "menu"=>{"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6"}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: menu_item):
+  
+app/controllers/menus_controller.rb:36:in `menu_params'
+app/controllers/menus_controller.rb:13:in `create'
+Started POST "/menus/" for ::1 at 2019-05-27 14:00:39 -0400
+Processing by MenusController#create as */*
+  Parameters: {"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6", "menu"=>{"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6"}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: @menu_item):
+  
+app/controllers/menus_controller.rb:36:in `menu_params'
+app/controllers/menus_controller.rb:13:in `create'
+Started POST "/menus/" for ::1 at 2019-05-27 14:02:54 -0400
+Processing by MenusController#create as */*
+  Parameters: {"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6", "menu"=>{"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6"}}
+Completed 400 Bad Request in 0ms (ActiveRecord: 2.6ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: menus):
+  
+app/controllers/menus_controller.rb:36:in `menu_params'
+app/controllers/menus_controller.rb:13:in `create'
+Started POST "/menus/" for ::1 at 2019-05-27 14:03:02 -0400
+Processing by MenusController#create as */*
+  Parameters: {"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6", "menu"=>{"course_type"=>"Appetizers", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"None", "pieces"=>"6"}}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/menus_controller.rb:14
+  [1m[36mMenu Create (4.5ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Test"], ["price", "100"], ["details", "Imagination"], ["style_type", "None"], ["pieces", "6"], ["created_at", "2019-05-27 18:03:02.999717"], ["updated_at", "2019-05-27 18:03:02.999717"]]
+  ↳ app/controllers/menus_controller.rb:14
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/menus_controller.rb:14
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 8.1ms)
+
+
+Started PUT "/menus/" for ::1 at 2019-05-27 14:12:22 -0400
+  
+ActionController::RoutingError (No route matches [PUT] "/menus"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/menus/53" for ::1 at 2019-05-27 14:12:32 -0400
+Processing by MenusController#update as */*
+  Parameters: {"course_type"=>"Mains", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"Put", "pieces"=>"6", "id"=>"53", "menu"=>{"course_type"=>"Mains", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"Put", "pieces"=>"6"}}
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 53], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:22
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/menus_controller.rb:23
+  [1m[36mMenu Update (9.5ms)[0m  [1m[33mUPDATE "menus" SET "course_type" = $1, "style_type" = $2, "updated_at" = $3 WHERE "menus"."id" = $4[0m  [["course_type", "Mains"], ["style_type", "Put"], ["updated_at", "2019-05-27 18:12:32.608400"], ["id", 53]]
+  ↳ app/controllers/menus_controller.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/menus_controller.rb:23
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 10.8ms)
+
+
+Started DELETE "/menus/53" for ::1 at 2019-05-27 14:12:51 -0400
+Processing by MenusController#destroy as */*
+  Parameters: {"course_type"=>"Mains", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"Put", "pieces"=>"6", "id"=>"53", "menu"=>{"course_type"=>"Mains", "item_name"=>"Test", "price"=>"100", "ingredients"=>nil, "details"=>"Imagination", "style_type"=>"Put", "pieces"=>"6"}}
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 53], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/menus_controller.rb:28
+  [1m[36mMenu Destroy (0.2ms)[0m  [1m[31mDELETE FROM "menus" WHERE "menus"."id" = $1[0m  [["id", 53]]
+  ↳ app/controllers/menus_controller.rb:28
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/menus_controller.rb:28
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/menus/1" for ::1 at 2019-05-27 14:22:33 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:8
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus/53" for ::1 at 2019-05-27 14:22:38 -0400
+Processing by MenusController#show as HTML
+  Parameters: {"id"=>"53"}
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT  "menus".* FROM "menus" WHERE "menus"."id" = $1 LIMIT $2[0m  [["id", 53], ["LIMIT", 1]]
+  ↳ app/controllers/menus_controller.rb:8
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Menu with 'id'=53):
+  
+app/controllers/menus_controller.rb:8:in `show'
