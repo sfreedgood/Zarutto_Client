@@ -48,10 +48,6 @@ export default class AppetizerContent extends Component{
     console.log(this.state.appItems)
     return(
         <div className="menu-section-container">
-            <div className="menu-head d-flex flex-row mb-0">
-              {/* <span className="">Gyoza</span>
-              <span className="font-weight-light">(6pcs)</span> */}
-            </div>
 
             
             {this.state.appItems}

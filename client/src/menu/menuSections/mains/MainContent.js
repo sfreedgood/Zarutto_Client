@@ -1,12 +1,83 @@
-import React from "react"
-import classNames from "classnames"
+import React, {Component} from "react"
+import Main from "./Main"
+import Axios from "axios"
 import "../../menu.css"
 
-const MainContent = () => {
+export default class MainContent extends Component {
+  state = {
+  }
 
+  componentWillMount = () => {
+    this.getMenu()
+  }
+
+  getMenu = async () => {
+    const res = await Axios.get('http://localhost:3000/menus')
+    // fetch('http://localhost:3000/menus')
+    //   .then(data => {
+    //     return data.json()
+    //   }, err => console.log(err))
+    //   .then(parsedData => {
+    //     console.log(parsedData)
+    //   }, err => console.log(err))
+    let menu = res.data.menu
+    this.getMains(menu)
+  }
+
+  getMains = (menu) => {
+    let mains = menu.filter(item => {
+      if (item.course_type === "Mains") {
+        return item
+      }
+    })
+    this.setMains(mains)
+  }
+
+  setMains = (mains) => {
+    let mainData = mains
+
+    let ramenMains = mainData.filter((item, key) => {
+      if (item.style_type === "ramen") {
+        return(
+          <Main key={key} item={item} />
+        )
+      }
+    })
+
+    let ramenToppings = mainData.filter((item, key) => {
+      if (item.style_type === "ramen topping") {
+        return(
+          <Main key={key} item={item} />
+        )
+      }
+    })
+
+    let otherMains = mainData.filter((item, key) => {
+      if (item.style_type === null) {
+        return(
+          <Main key={key} item={item} />
+        )
+      }
+    })
+    console.log(otherMains)
+
+    this.setState( prevState => (
+      {
+        ramenMains,
+        ramenToppings,
+        otherMains
+      }
+    ))
+  }
+  render() {
+    console.log(this.state)
     return(
         <div className="menu-section-container">
-            <div className="menu-item d-flex flex-column mb-2 dots">
+            {/* {this.state.ramenMains}
+            {this.state.ramenToppings}
+            {this.state.otherMains} */}
+
+            {/* <div className="menu-item d-flex flex-column mb-2 dots">
               <span className="content dots-left">Zurutto Ramen</span>
               <span className="price ml-auto ml-auto dots-right">$12</span>
               <div className="item-detail">(Chicken broth)</div>
@@ -73,10 +144,9 @@ const MainContent = () => {
             <span className="content dots-left">Kobe Beef Burger</span>
             <span className="price ml-auto dots-right">$12</span>
             <div className="item-detail">Kobe ground beef, romaine lettuce, cheese, tomato, scallion, original bbq sauce, spicy mayonnaise</div>
-          </div>
+          </div>*/}
 
         </div>
     )
+  }
 }
-
-export default MainContent;

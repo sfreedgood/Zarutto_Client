@@ -23,7 +23,7 @@ const Contact = () => {
             </div>
             <div className = "hoursPhone">
             <p className="hours"><a href="https://www.google.com/search?q=zurutto+hours&ludocid=1913882960576136366&sa=X&ved=2ahUKEwjKx4CdgMTgAhVBheAKHf_aDbcQ6BMwGXoECAwQRA&biw=1189&bih=621"target="_blank">Hours: <span class="font-weight-bold">12pm-11pm</span> every day</a></p>
-            <p className="phone">Phone:  <span class="font-weight-bold"><a href="tel:12124980022">(212)498-0222</a></span></p>
+            <p className="phone">Phone:  <span className="font-weight-bold"><a href="tel:12124980022">(212)498-0222</a></span></p>
             <br/>
 
             </div>

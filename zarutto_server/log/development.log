@@ -3887,3 +3887,1127 @@ Processing by MenusController#index as HTML
 Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/menus" for ::1 at 2019-05-27 18:46:34 -0400
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/samuelfreedgood/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 20ms (Views: 14.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:07:33 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:07:36 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:08:40 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:08:51 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:19:47 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:20:22 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:23:45 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:24:56 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:25:48 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:26:28 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:30:31 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:31:59 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:33:18 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:33:19 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:33:25 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:34:59 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:35:17 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:35:34 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:35:36 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:36:10 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:36:39 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:37:10 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:37:48 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:39:09 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:39:45 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:40:34 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:43:09 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:43:17 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:44:34 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:51:29 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 19:52:52 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.4ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (220.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "zarutto_server_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (213.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "zarutto_server_test"[0m
+  ↳ bin/rails:9
+  [1m[35m (418.1ms)[0m  [1m[35mCREATE DATABASE "zarutto_server_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (386.9ms)[0m  [1m[35mCREATE DATABASE "zarutto_server_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35mSQL (1.9ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (1.0ms)[0m  [1m[35mDROP TABLE IF EXISTS "menus" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (12.8ms)[0m  [1m[35mCREATE TABLE "menus" ("id" bigserial primary key, "course_type" character varying, "item_name" character varying, "price" character varying, "ingredients" text, "details" text, "style_type" character varying, "pieces" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190525205406)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-27 23:56:38.750104"], ["updated_at", "2019-05-27 23:56:38.750104"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35mSQL (0.5ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "menus" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (9.5ms)[0m  [1m[35mCREATE TABLE "menus" ("id" bigserial primary key, "course_type" character varying, "item_name" character varying, "price" character varying, "ingredients" text, "details" text, "style_type" character varying, "pieces" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (3.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190525205406)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-27 23:56:38.791309"], ["updated_at", "2019-05-27 23:56:38.791309"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-05-27 23:56:38.794055"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.5ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Regular"], ["price", "6"], ["style_type", "Gyoza"], ["pieces", "6"], ["created_at", "2019-05-27 23:56:38.823839"], ["updated_at", "2019-05-27 23:56:38.823839"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Cheese"], ["price", "7"], ["style_type", "Gyoza"], ["pieces", "6"], ["created_at", "2019-05-27 23:56:38.826004"], ["updated_at", "2019-05-27 23:56:38.826004"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Radish"], ["price", "7"], ["style_type", "Gyoza"], ["pieces", "6"], ["created_at", "2019-05-27 23:56:38.827543"], ["updated_at", "2019-05-27 23:56:38.827543"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Edamame"], ["price", "4"], ["created_at", "2019-05-27 23:56:38.828768"], ["updated_at", "2019-05-27 23:56:38.828768"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Edamame"], ["price", "5"], ["details", "w/ garlic butter"], ["created_at", "2019-05-27 23:56:38.830148"], ["updated_at", "2019-05-27 23:56:38.830148"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Kimchi"], ["price", "4"], ["created_at", "2019-05-27 23:56:38.831233"], ["updated_at", "2019-05-27 23:56:38.831233"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Sesame Cucumber"], ["price", "6"], ["created_at", "2019-05-27 23:56:38.832331"], ["updated_at", "2019-05-27 23:56:38.832331"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Karaage"], ["price", "[\"4\", \"7\"]"], ["details", "fried chicken"], ["pieces", "[\"3\", \"6\"]"], ["created_at", "2019-05-27 23:56:38.833461"], ["updated_at", "2019-05-27 23:56:38.833461"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Roast Pork Buns"], ["price", "7"], ["pieces", "2"], ["created_at", "2019-05-27 23:56:38.834688"], ["updated_at", "2019-05-27 23:56:38.834688"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Takoyoki"], ["price", "7"], ["pieces", "8"], ["created_at", "2019-05-27 23:56:38.836019"], ["updated_at", "2019-05-27 23:56:38.836019"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "French Fries, Okonomiyaki Style"], ["price", "6"], ["created_at", "2019-05-27 23:56:38.837460"], ["updated_at", "2019-05-27 23:56:38.837460"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Zurutto Salad"], ["price", "8"], ["created_at", "2019-05-27 23:56:38.838735"], ["updated_at", "2019-05-27 23:56:38.838735"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Tofu Salad"], ["price", "8"], ["created_at", "2019-05-27 23:56:38.840194"], ["updated_at", "2019-05-27 23:56:38.840194"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Zurutto Ramen"], ["price", "12"], ["ingredients", "Miso, corn, bean, sprouts, cabbage, onion, scallion, ground pork, roasted pork, noodle"], ["details", "Chicken broth"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:56:38.841448"], ["updated_at", "2019-05-27 23:56:38.841448"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Spicy Zurutto Ramen"], ["price", "13"], ["ingredients", "Spicy oil, miso, corn, bean sprouts, cabbage, onion, scallion, ground pork, roasted pork"], ["details", "Chicken broth"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:56:38.842512"], ["updated_at", "2019-05-27 23:56:38.842512"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Vegetable Soy Milk Miso Ramen"], ["price", "15"], ["ingredients", "Miso, kimchi, onion, bean sprouts, cabbage, scallion, corn, seaweed, bamboo, noodle"], ["details", "Vegetable broth and soy milk"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:56:38.843734"], ["updated_at", "2019-05-27 23:56:38.843734"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Truffle Dan Dan Ramen"], ["price", "15"], ["ingredients", "Sesame paste, white truffle oil, parmesan cheese, ground pork, seasoned boiled egg, crunchy onions, scallion, chili oil"], ["details", "Vegetable broth; less soup & spicy"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:56:38.844928"], ["updated_at", "2019-05-27 23:56:38.844928"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Kaedama"], ["price", "2"], ["details", "Extra Noodles"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:56:38.846074"], ["updated_at", "2019-05-27 23:56:38.846074"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Roasted pork"], ["price", "3"], ["style_type", "ramen topping"], ["pieces", "2"], ["created_at", "2019-05-27 23:56:38.847201"], ["updated_at", "2019-05-27 23:56:38.847201"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Bamboo shoot"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:56:38.848302"], ["updated_at", "2019-05-27 23:56:38.848302"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Spicy chili oil"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:56:38.849285"], ["updated_at", "2019-05-27 23:56:38.849285"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Seasoned boiled egg"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:56:38.850221"], ["updated_at", "2019-05-27 23:56:38.850221"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Poached egg"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:56:38.851130"], ["updated_at", "2019-05-27 23:56:38.851130"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Crunchy onion"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:56:38.852333"], ["updated_at", "2019-05-27 23:56:38.852333"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Okonomiyaki"], ["price", "12"], ["ingredients", "Bacon, cabbage, crunchy tempura flake, egg, scallion, original teriyaki sauce, mayonnaise, dry seaweed, bonito flake, flour"], ["details", "Japanese Style Pancake"], ["created_at", "2019-05-27 23:56:38.853354"], ["updated_at", "2019-05-27 23:56:38.853354"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Kobe Beef Burger"], ["price", "12"], ["ingredients", "Kobe ground beef, romaine lettuce, cheese, tomato, scallion, original bbq sauce, spicy mayonnaise"], ["created_at", "2019-05-27 23:56:38.854303"], ["updated_at", "2019-05-27 23:56:38.854303"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Desserts"], ["item_name", "Almond Tofu Pudding"], ["price", "7"], ["created_at", "2019-05-27 23:56:38.855213"], ["updated_at", "2019-05-27 23:56:38.855213"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Desserts"], ["item_name", "Mochi Green Tea or Vanilla"], ["price", "5"], ["created_at", "2019-05-27 23:56:38.856331"], ["updated_at", "2019-05-27 23:56:38.856331"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Desserts"], ["item_name", "Yuzu Sherbert"], ["price", "5"], ["created_at", "2019-05-27 23:56:38.857415"], ["updated_at", "2019-05-27 23:56:38.857415"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sapporo"], ["price", "6"], ["style_type", "draft beer"], ["created_at", "2019-05-27 23:56:38.858352"], ["updated_at", "2019-05-27 23:56:38.858352"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sapporo"], ["price", "7"], ["style_type", "draft beer"], ["created_at", "2019-05-27 23:56:38.859270"], ["updated_at", "2019-05-27 23:56:38.859270"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Kagua Rouge"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:56:38.860227"], ["updated_at", "2019-05-27 23:56:38.860227"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Kagua Blanc"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:56:38.861146"], ["updated_at", "2019-05-27 23:56:38.861146"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ozeno Yukidoke Ipa"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:56:38.862043"], ["updated_at", "2019-05-27 23:56:38.862043"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ozeno White Weizen"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:56:38.862977"], ["updated_at", "2019-05-27 23:56:38.862977"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ginga Koge"], ["price", "9"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:56:38.863847"], ["updated_at", "2019-05-27 23:56:38.863847"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Daissai"], ["price", "[50, 10]"], ["details", "[\"bottle\", \"glass\"]"], ["style_type", "sake"], ["created_at", "2019-05-27 23:56:38.864712"], ["updated_at", "2019-05-27 23:56:38.864712"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Nigori"], ["price", "10"], ["style_type", "sake"], ["created_at", "2019-05-27 23:56:38.865593"], ["updated_at", "2019-05-27 23:56:38.865593"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Kikusui"], ["price", "12"], ["style_type", "sake"], ["created_at", "2019-05-27 23:56:38.866556"], ["updated_at", "2019-05-27 23:56:38.866556"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Hakkaisan"], ["price", "11"], ["style_type", "sake"], ["created_at", "2019-05-27 23:56:38.867412"], ["updated_at", "2019-05-27 23:56:38.867412"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Hot Sake"], ["price", "10"], ["style_type", "sake"], ["created_at", "2019-05-27 23:56:38.868325"], ["updated_at", "2019-05-27 23:56:38.868325"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "House Chardonnay"], ["price", "6"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:56:38.869320"], ["updated_at", "2019-05-27 23:56:38.869320"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sauvignon Blanc"], ["price", "8"], ["details", "New Zealand"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:56:38.870446"], ["updated_at", "2019-05-27 23:56:38.870446"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Pinot Grigio"], ["price", "8"], ["details", "Italy"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:56:38.871460"], ["updated_at", "2019-05-27 23:56:38.871460"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Chowa Plum Wine"], ["price", "8"], ["details", "Japanese Green Plum"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:56:38.872528"], ["updated_at", "2019-05-27 23:56:38.872528"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "House Merlot"], ["price", "6"], ["style_type", "red wine"], ["created_at", "2019-05-27 23:56:38.873532"], ["updated_at", "2019-05-27 23:56:38.873532"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Cabernet"], ["price", "8"], ["details", "California"], ["style_type", "red wine"], ["created_at", "2019-05-27 23:56:38.874397"], ["updated_at", "2019-05-27 23:56:38.874397"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Pinot Noir"], ["price", "8"], ["details", "France"], ["style_type", "red wine"], ["created_at", "2019-05-27 23:56:38.875266"], ["updated_at", "2019-05-27 23:56:38.875266"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Coke"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:56:38.876122"], ["updated_at", "2019-05-27 23:56:38.876122"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Diet Coke"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:56:38.877013"], ["updated_at", "2019-05-27 23:56:38.877013"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ginger Ale"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:56:38.877879"], ["updated_at", "2019-05-27 23:56:38.877879"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sparkling Water"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:56:38.878783"], ["updated_at", "2019-05-27 23:56:38.878783"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (8081.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "zarutto_server_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (188.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "zarutto_server_development"[0m
+  ↳ bin/rails:9
+  [1m[35m (197.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "zarutto_server_test"[0m
+  ↳ bin/rails:9
+  [1m[35m (375.1ms)[0m  [1m[35mCREATE DATABASE "zarutto_server_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (421.8ms)[0m  [1m[35mCREATE DATABASE "zarutto_server_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35mSQL (0.3ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "menus" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE "menus" ("id" bigserial primary key, "course_type" character varying, "item_name" character varying, "price" character varying, "ingredients" text, "details" text, "style_type" character varying, "pieces" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190525205406)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-27 23:59:10.584069"], ["updated_at", "2019-05-27 23:59:10.584069"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35mSQL (0.4ms)[0m  [1m[35mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  ↳ db/schema.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "menus" CASCADE[0m
+  ↳ db/schema.rb:18
+  [1m[35m (15.1ms)[0m  [1m[35mCREATE TABLE "menus" ("id" bigserial primary key, "course_type" character varying, "item_name" character varying, "price" character varying, "ingredients" text, "details" text, "style_type" character varying, "pieces" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:18
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20190525205406)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-27 23:59:10.644151"], ["updated_at", "2019-05-27 23:59:10.644151"]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = $1, "updated_at" = $2 WHERE "ar_internal_metadata"."key" = $3[0m  [["value", "test"], ["updated_at", "2019-05-27 23:59:10.646504"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.5ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Regular"], ["price", "6"], ["style_type", "Gyoza"], ["pieces", "6"], ["created_at", "2019-05-27 23:59:10.678810"], ["updated_at", "2019-05-27 23:59:10.678810"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Cheese"], ["price", "7"], ["style_type", "Gyoza"], ["pieces", "6"], ["created_at", "2019-05-27 23:59:10.680547"], ["updated_at", "2019-05-27 23:59:10.680547"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Radish"], ["price", "7"], ["style_type", "Gyoza"], ["pieces", "6"], ["created_at", "2019-05-27 23:59:10.681721"], ["updated_at", "2019-05-27 23:59:10.681721"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Edamame"], ["price", "4"], ["created_at", "2019-05-27 23:59:10.682791"], ["updated_at", "2019-05-27 23:59:10.682791"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Edamame"], ["price", "5"], ["details", "w/ garlic butter"], ["created_at", "2019-05-27 23:59:10.683814"], ["updated_at", "2019-05-27 23:59:10.683814"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Kimchi"], ["price", "4"], ["created_at", "2019-05-27 23:59:10.689391"], ["updated_at", "2019-05-27 23:59:10.689391"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Sesame Cucumber"], ["price", "6"], ["created_at", "2019-05-27 23:59:10.690898"], ["updated_at", "2019-05-27 23:59:10.690898"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Karaage"], ["price", "[4, 7]"], ["details", "fried chicken"], ["pieces", "[3, 6]"], ["created_at", "2019-05-27 23:59:10.692052"], ["updated_at", "2019-05-27 23:59:10.692052"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Roast Pork Buns"], ["price", "7"], ["pieces", "2"], ["created_at", "2019-05-27 23:59:10.693264"], ["updated_at", "2019-05-27 23:59:10.693264"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Takoyoki"], ["price", "7"], ["pieces", "8"], ["created_at", "2019-05-27 23:59:10.694624"], ["updated_at", "2019-05-27 23:59:10.694624"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "French Fries, Okonomiyaki Style"], ["price", "6"], ["created_at", "2019-05-27 23:59:10.695695"], ["updated_at", "2019-05-27 23:59:10.695695"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Zurutto Salad"], ["price", "8"], ["created_at", "2019-05-27 23:59:10.696737"], ["updated_at", "2019-05-27 23:59:10.696737"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Appetizers"], ["item_name", "Tofu Salad"], ["price", "8"], ["created_at", "2019-05-27 23:59:10.697906"], ["updated_at", "2019-05-27 23:59:10.697906"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.2ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Zurutto Ramen"], ["price", "12"], ["ingredients", "Miso, corn, bean, sprouts, cabbage, onion, scallion, ground pork, roasted pork, noodle"], ["details", "Chicken broth"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:59:10.699054"], ["updated_at", "2019-05-27 23:59:10.699054"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Spicy Zurutto Ramen"], ["price", "13"], ["ingredients", "Spicy oil, miso, corn, bean sprouts, cabbage, onion, scallion, ground pork, roasted pork"], ["details", "Chicken broth"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:59:10.700178"], ["updated_at", "2019-05-27 23:59:10.700178"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Vegetable Soy Milk Miso Ramen"], ["price", "15"], ["ingredients", "Miso, kimchi, onion, bean sprouts, cabbage, scallion, corn, seaweed, bamboo, noodle"], ["details", "Vegetable broth and soy milk"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:59:10.701106"], ["updated_at", "2019-05-27 23:59:10.701106"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Truffle Dan Dan Ramen"], ["price", "15"], ["ingredients", "Sesame paste, white truffle oil, parmesan cheese, ground pork, seasoned boiled egg, crunchy onions, scallion, chili oil"], ["details", "Vegetable broth; less soup & spicy"], ["style_type", "ramen"], ["created_at", "2019-05-27 23:59:10.701990"], ["updated_at", "2019-05-27 23:59:10.701990"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Kaedama"], ["price", "2"], ["details", "Extra Noodles"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:59:10.702858"], ["updated_at", "2019-05-27 23:59:10.702858"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "pieces", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Roasted pork"], ["price", "3"], ["style_type", "ramen topping"], ["pieces", "2"], ["created_at", "2019-05-27 23:59:10.703718"], ["updated_at", "2019-05-27 23:59:10.703718"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Bamboo shoot"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:59:10.704632"], ["updated_at", "2019-05-27 23:59:10.704632"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Spicy chili oil"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:59:10.705549"], ["updated_at", "2019-05-27 23:59:10.705549"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Seasoned boiled egg"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:59:10.706463"], ["updated_at", "2019-05-27 23:59:10.706463"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Poached egg"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:59:10.707327"], ["updated_at", "2019-05-27 23:59:10.707327"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Crunchy onion"], ["price", "2"], ["style_type", "ramen topping"], ["created_at", "2019-05-27 23:59:10.708131"], ["updated_at", "2019-05-27 23:59:10.708131"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "details", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Okonomiyaki"], ["price", "12"], ["ingredients", "Bacon, cabbage, crunchy tempura flake, egg, scallion, original teriyaki sauce, mayonnaise, dry seaweed, bonito flake, flour"], ["details", "Japanese Style Pancake"], ["created_at", "2019-05-27 23:59:10.708939"], ["updated_at", "2019-05-27 23:59:10.708939"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "ingredients", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Mains"], ["item_name", "Kobe Beef Burger"], ["price", "12"], ["ingredients", "Kobe ground beef, romaine lettuce, cheese, tomato, scallion, original bbq sauce, spicy mayonnaise"], ["created_at", "2019-05-27 23:59:10.709752"], ["updated_at", "2019-05-27 23:59:10.709752"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Desserts"], ["item_name", "Almond Tofu Pudding"], ["price", "7"], ["created_at", "2019-05-27 23:59:10.710576"], ["updated_at", "2019-05-27 23:59:10.710576"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Desserts"], ["item_name", "Mochi Green Tea or Vanilla"], ["price", "5"], ["created_at", "2019-05-27 23:59:10.711352"], ["updated_at", "2019-05-27 23:59:10.711352"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["course_type", "Desserts"], ["item_name", "Yuzu Sherbert"], ["price", "5"], ["created_at", "2019-05-27 23:59:10.712126"], ["updated_at", "2019-05-27 23:59:10.712126"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sapporo"], ["price", "6"], ["style_type", "draft beer"], ["created_at", "2019-05-27 23:59:10.712909"], ["updated_at", "2019-05-27 23:59:10.712909"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sapporo"], ["price", "7"], ["style_type", "draft beer"], ["created_at", "2019-05-27 23:59:10.713760"], ["updated_at", "2019-05-27 23:59:10.713760"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Kagua Rouge"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:59:10.714539"], ["updated_at", "2019-05-27 23:59:10.714539"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Kagua Blanc"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:59:10.715337"], ["updated_at", "2019-05-27 23:59:10.715337"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ozeno Yukidoke Ipa"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:59:10.716117"], ["updated_at", "2019-05-27 23:59:10.716117"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ozeno White Weizen"], ["price", "10"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:59:10.716932"], ["updated_at", "2019-05-27 23:59:10.716932"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ginga Koge"], ["price", "9"], ["style_type", "bottled beer"], ["created_at", "2019-05-27 23:59:10.717711"], ["updated_at", "2019-05-27 23:59:10.717711"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Daissai"], ["price", "[50, 10]"], ["details", "[\"bottle\", \"glass\"]"], ["style_type", "sake"], ["created_at", "2019-05-27 23:59:10.718554"], ["updated_at", "2019-05-27 23:59:10.718554"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Nigori"], ["price", "10"], ["style_type", "sake"], ["created_at", "2019-05-27 23:59:10.719354"], ["updated_at", "2019-05-27 23:59:10.719354"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Kikusui"], ["price", "12"], ["style_type", "sake"], ["created_at", "2019-05-27 23:59:10.720193"], ["updated_at", "2019-05-27 23:59:10.720193"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Hakkaisan"], ["price", "11"], ["style_type", "sake"], ["created_at", "2019-05-27 23:59:10.720970"], ["updated_at", "2019-05-27 23:59:10.720970"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Hot Sake"], ["price", "10"], ["style_type", "sake"], ["created_at", "2019-05-27 23:59:10.721794"], ["updated_at", "2019-05-27 23:59:10.721794"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "House Chardonnay"], ["price", "6"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:59:10.722582"], ["updated_at", "2019-05-27 23:59:10.722582"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sauvignon Blanc"], ["price", "8"], ["details", "New Zealand"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:59:10.723405"], ["updated_at", "2019-05-27 23:59:10.723405"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Pinot Grigio"], ["price", "8"], ["details", "Italy"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:59:10.724191"], ["updated_at", "2019-05-27 23:59:10.724191"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Chowa Plum Wine"], ["price", "8"], ["details", "Japanese Green Plum"], ["style_type", "white wine"], ["created_at", "2019-05-27 23:59:10.724990"], ["updated_at", "2019-05-27 23:59:10.724990"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "House Merlot"], ["price", "6"], ["style_type", "red wine"], ["created_at", "2019-05-27 23:59:10.725925"], ["updated_at", "2019-05-27 23:59:10.725925"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Cabernet"], ["price", "8"], ["details", "California"], ["style_type", "red wine"], ["created_at", "2019-05-27 23:59:10.726917"], ["updated_at", "2019-05-27 23:59:10.726917"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "details", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Pinot Noir"], ["price", "8"], ["details", "France"], ["style_type", "red wine"], ["created_at", "2019-05-27 23:59:10.727913"], ["updated_at", "2019-05-27 23:59:10.727913"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Coke"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:59:10.728893"], ["updated_at", "2019-05-27 23:59:10.728893"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Diet Coke"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:59:10.729873"], ["updated_at", "2019-05-27 23:59:10.729873"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Ginger Ale"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:59:10.730784"], ["updated_at", "2019-05-27 23:59:10.730784"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mMenu Create (0.1ms)[0m  [1m[32mINSERT INTO "menus" ("course_type", "item_name", "price", "style_type", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["course_type", "Drinks"], ["item_name", "Sparkling Water"], ["price", "3.5"], ["style_type", "soft drink"], ["created_at", "2019-05-27 23:59:10.731628"], ["updated_at", "2019-05-27 23:59:10.731628"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+Started GET "/menus" for ::1 at 2019-05-27 19:59:46 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/samuelfreedgood/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 22ms (Views: 15.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:00:09 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:03:58 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:05:25 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:06:43 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:06:45 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:06:46 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:06:48 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:20:03 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:20:54 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:21:58 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:22:42 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:23:30 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-27 20:25:47 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.3ms)
+
+

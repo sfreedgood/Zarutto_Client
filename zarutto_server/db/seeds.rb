@@ -29,7 +29,7 @@ menus = Menu.create([
     course_type: "Appetizers", item_name: "Sesame Cucumber", price: 6, ingredients: nil, details: nil, style_type: nil, pieces: nil
   },
   {
-    course_type: "Appetizers", item_name: "Karaage", price: %w[4 7], ingredients: nil, details: "fried chicken", style_type: nil, pieces: %w[3 6]
+    course_type: "Appetizers", item_name: "Karaage", price: [4, 7], ingredients: nil, details: "fried chicken", style_type: nil, pieces: [3, 6]
   },
   {
     course_type: "Appetizers", item_name: "Roast Pork Buns", price: 7, ingredients: nil, details: nil, style_type: nil, pieces: 2
@@ -47,16 +47,16 @@ menus = Menu.create([
     course_type: "Appetizers", item_name: "Tofu Salad", price: 8, ingredients: nil, details: nil, style_type: nil, pieces: nil
   },
   {
-    course_type: "Mains", item_name: "Zurutto Ramen", price: 12, ingredients: ["Miso", "corn", "bean", "sprouts", "cabbage", "onion", "scallion", "ground pork", "roasted pork", "noodle"], details: "Chicken broth", style_type: "ramen", pieces: nil,
+    course_type: "Mains", item_name: "Zurutto Ramen", price: 12, ingredients: "Miso, corn, bean, sprouts, cabbage, onion, scallion, ground pork, roasted pork, noodle", details: "Chicken broth", style_type: "ramen", pieces: nil,
   },
   {
-    course_type: "Mains", item_name: "Spicy Zurutto Ramen", price: 13, ingredients: ["Spicy oil", "miso", "corn", "bean sprouts", "cabbage", "onion", "scallion", "ground pork", "roasted pork"], details: "Chicken broth", style_type: "ramen", pieces: nil,
+    course_type: "Mains", item_name: "Spicy Zurutto Ramen", price: 13, ingredients: "Spicy oil, miso, corn, bean sprouts, cabbage, onion, scallion, ground pork, roasted pork", details: "Chicken broth", style_type: "ramen", pieces: nil,
   },
   {
-    course_type: "Mains", item_name: "Vegetable Soy Milk Miso Ramen", price: 15, ingredients: ["Miso", "kimchi", "onion", "bean sprouts", "cabbage", "scallion", "corn", "seaweed", "bamboo", "noodle"], details: "Vegetable broth and soy milk", style_type: "ramen", pieces: nil,
+    course_type: "Mains", item_name: "Vegetable Soy Milk Miso Ramen", price: 15, ingredients: "Miso, kimchi, onion, bean sprouts, cabbage, scallion, corn, seaweed, bamboo, noodle", details: "Vegetable broth and soy milk", style_type: "ramen", pieces: nil,
   },
   {
-    course_type: "Mains", item_name: "Truffle Dan Dan Ramen", price: 15, ingredients: ["Sesame paste", "white truffle oil", "parmesan cheese", "ground pork", "seasoned boiled egg", "crunchy onions", "scallion", "chili oil"], details: "Vegetable broth; less soup & spicy", style_type: "ramen", pieces: nil,
+    course_type: "Mains", item_name: "Truffle Dan Dan Ramen", price: 15, ingredients: "Sesame paste, white truffle oil, parmesan cheese, ground pork, seasoned boiled egg, crunchy onions, scallion, chili oil", details: "Vegetable broth; less soup & spicy", style_type: "ramen", pieces: nil,
   },
   {
     course_type: "Mains", item_name: "Kaedama", price: 2, ingredients: nil, details: "Extra Noodles", style_type: "ramen topping", pieces: nil,
@@ -80,10 +80,10 @@ menus = Menu.create([
     course_type: "Mains", item_name: "Crunchy onion", price: 2, ingredients: nil, details: nil, style_type: "ramen topping", pieces: nil,
   },
   {
-    course_type: "Mains", item_name: "Okonomiyaki", price: 12, ingredients: ["Bacon", "cabbage", "crunchy tempura flake", "egg", "scallion", "original teriyaki sauce", "mayonnaise", "dry seaweed", "bonito flake", "flour"], details: "Japanese Style Pancake", style_type: nil, pieces: nil,
+    course_type: "Mains", item_name: "Okonomiyaki", price: 12, ingredients: "Bacon, cabbage, crunchy tempura flake, egg, scallion, original teriyaki sauce, mayonnaise, dry seaweed, bonito flake, flour", details: "Japanese Style Pancake", style_type: nil, pieces: nil,
   },
   {
-    course_type: "Mains", item_name: "Kobe Beef Burger", price: 12, ingredients: ["Kobe ground beef", "romaine lettuce", "cheese", "tomato", "scallion", "original bbq sauce", "spicy mayonnaise"], details: nil, style_type: nil, pieces: nil,
+    course_type: "Mains", item_name: "Kobe Beef Burger", price: 12, ingredients: "Kobe ground beef, romaine lettuce, cheese, tomato, scallion, original bbq sauce, spicy mayonnaise", details: nil, style_type: nil, pieces: nil,
   },
   {
     course_type: "Desserts", item_name: "Almond Tofu Pudding", price: 7, ingredients: nil, details: nil, style_type: nil, pieces: nil,
