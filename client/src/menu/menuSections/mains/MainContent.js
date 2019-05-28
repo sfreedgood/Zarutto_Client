@@ -4,8 +4,7 @@ import Axios from "axios"
 import "../../menu.css"
 
 export default class MainContent extends Component {
-  state = {
-  }
+  state = {}
 
   componentWillMount = () => {
     this.getMenu()

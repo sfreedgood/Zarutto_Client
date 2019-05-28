@@ -6,7 +6,7 @@ import "../../menu.css"
 const Appetizers = () => {
 
     return(
-        <div className="menu-section-container container">
+        <div className="container">
           <div className="row">
             <AppetizerContent/>
             {/* <AppetizerPrices/> */}

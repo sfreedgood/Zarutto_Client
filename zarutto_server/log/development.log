@@ -5174,3 +5174,311 @@ Processing by MenusController#index as HTML
 Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/menus" for ::1 at 2019-05-28 00:17:09 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:18:04 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:18:18 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:20:41 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:27:11 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.8ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:28:26 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:28:29 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.7ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:28:31 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:00 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:02 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:19 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:21 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:27 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:40 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:57 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:29:59 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:30:04 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:30:27 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:30:55 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:30:57 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:31:03 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:31:10 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:31:16 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:31:42 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:31:46 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:32:11 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:33:24 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:35:52 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:35:56 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:36:03 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:36:11 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:37:04 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:37:28 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:37:55 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:38:12 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.6ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:38:37 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:38:48 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:39:14 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:39:35 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:39:44 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.5ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:40:05 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.2ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:40:12 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.3ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:40:22 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/menus" for ::1 at 2019-05-28 00:40:43 -0400
+Processing by MenusController#index as HTML
+  [1m[36mMenu Load (0.4ms)[0m  [1m[34mSELECT "menus".* FROM "menus"[0m
+  ↳ app/controllers/menus_controller.rb:4
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.4ms)
+
+
