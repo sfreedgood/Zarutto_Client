@@ -116,7 +116,7 @@ menus = Menu.create([
     course_type: "Drinks", item_name: "Ginga Koge", price: 9, ingredients: nil, details: nil, style_type: "bottled beer", pieces: nil,
   },
   {
-    course_type: "Drinks", item_name: "Daissai", price: [50, 10], ingredients: nil, details: %w[bottle glass], style_type: "sake", pieces: nil,
+    course_type: "Drinks", item_name: "Daissai", price: [50, 10], ingredients: nil, details: nil, style_type: "sake", pieces: ["bottle", "glass"],
   },
   {
     course_type: "Drinks", item_name: "Nigori", price: 10, ingredients: nil, details: nil, style_type: "sake", pieces: nil,
@@ -140,7 +140,7 @@ menus = Menu.create([
     course_type: "Drinks", item_name: "Pinot Grigio", price: 8, ingredients: nil, details: "Italy", style_type: "white wine", pieces: nil,
   },
   {
-    course_type: "Drinks", item_name: "Chowa Plum Wine", price: 8, ingredients: nil, details: "Japanese Green Plum", style_type: "white wine", pieces: nil,
+    course_type: "Drinks", item_name: "Chowa Plum Wine", price: 8, ingredients: "Japanese Green Plum", details: nil, style_type: "white wine", pieces: nil,
   },
   {
     course_type: "Drinks", item_name: "House Merlot", price: 6, ingredients: nil, details: nil, style_type: "red wine", pieces: nil,
