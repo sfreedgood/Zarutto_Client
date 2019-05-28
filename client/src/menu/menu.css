@@ -30,6 +30,12 @@
     padding: 10px 10px;
 }
 
+.menu-section {
+  background-color: whitesmoke;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
 .menu-head span{
   color: #212121;
   font-weight: 600;
@@ -95,9 +101,8 @@ font-weight: 600;
 }
 
 .price {
-
+    background-color: inherit;
     text-align: right;
-    /* flex: 2; */
     font-weight: 600;
 }
 
@@ -176,4 +181,13 @@ font-weight: 600;
     right: 0;
     padding-left: 5px; /* space right of dots */
     padding-right: 10px;
+}
+
+.dots-right-section{
+  background: whitesmoke; /* cover the dots */
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  padding-left: 5px; /* space right of dots */
+  padding-right: 10px;
 }

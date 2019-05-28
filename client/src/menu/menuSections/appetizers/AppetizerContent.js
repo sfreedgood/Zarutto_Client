@@ -4,9 +4,7 @@ import "../../menu.css"
 import Appetizer from "./Appetizer";
 
 export default class AppetizerContent extends Component{
-  state = {
-    appItems: false
-  }
+  state = {  }
 
   componentWillMount = () => {
     this.getMenu()
@@ -22,35 +20,62 @@ export default class AppetizerContent extends Component{
     //     console.log(parsedData)
     //   }, err => console.log(err))
     let menu = res.data.menu
-    this.setApps(menu)
+    this.getApps(menu)
   }
 
-  setApps = (menu) => {
+  getApps = (menu) => {
     let apps = menu.filter(item => {
       if (item.course_type === "Appetizers") {
         return item
       }
     })
-    this.renderApps(apps)
+    this.setApps(apps)
   }
 
-  renderApps = (apps) => {
+  setApps = (apps) => {
     let appData = apps
-    let appItems = appData.map((item, key) => {
+    let gyozaItems = appData.filter(item => {
+      if (item.style_type === "Gyoza") {
+        return item
+      }
+    })
+    let otherItems = appData.filter(item => {
+      if (item.style_type === null) {
+        return item
+      }
+    })
+    this.setState( prevState => (
+      {
+        gyozaItems,
+        otherItems
+      }
+    ))
+  }
+
+  renderApps = (items) => {
+    let itemsToRender = items.map((item, key) => {
       return(
         <Appetizer key={key} item={item} />
       )
     })
-    this.setState( prevState => ({appItems}))
+    return itemsToRender
   }
 
   render() {  
     console.log(this.state.appItems)
     return(
         <div className="menu-section-container">
-
-            
-            {this.state.appItems}
+          <div className="menu-section">
+            <div className="menu-head">Gyoza</div>
+            {
+              this.state.gyozaItems &&
+              this.renderApps(this.state.gyozaItems)
+            }
+          </div>
+          {
+            this.state.otherItems &&
+            this.renderApps(this.state.otherItems)
+          }
             
 
             {/* <div className="menu-item d-flex flex-row dots">

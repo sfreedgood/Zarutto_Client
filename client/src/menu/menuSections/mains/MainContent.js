@@ -75,17 +75,19 @@ export default class MainContent extends Component {
   render() {
     return(
         <div className="menu-section-container"> 
-          {
-            this.state.ramenMains &&
-            this.renderItems(this.state.ramenMains)
-          }
-          
-          <div className="menu-head">Ramen Toppings</div>
-          {
-            this.state.ramenToppings &&
-            this.renderItems(this.state.ramenToppings)
-          }
-          
+          <div className="menu-section">
+            <div className="menu-head">Ramen</div>
+            {
+              this.state.ramenMains &&
+              this.renderItems(this.state.ramenMains)
+            }
+
+            <div className="menu-head">Ramen Toppings</div>
+            {
+              this.state.ramenToppings &&
+              this.renderItems(this.state.ramenToppings)
+            }
+          </div>
           {
             this.state.otherMains &&
             this.renderItems(this.state.otherMains)
