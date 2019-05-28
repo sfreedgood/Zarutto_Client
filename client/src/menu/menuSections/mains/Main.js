@@ -2,7 +2,6 @@ import React from "react"
 import "../../menu.css"
 
 const Main = (props) => {
-  console.log(props)
   // const sanitizeMultiples = (field) =>{
   //   let values = []
   //   if (Array.isArray(field)){

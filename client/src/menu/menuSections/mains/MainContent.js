@@ -36,30 +36,23 @@ export default class MainContent extends Component {
   setMains = (mains) => {
     let mainData = mains
 
-    let ramenMains = mainData.filter((item, key) => {
+    let ramenMains = mainData.filter(item => {
       if (item.style_type === "ramen") {
-        return(
-          <Main key={key} item={item} />
-        )
+        return(item)
       }
     })
 
-    let ramenToppings = mainData.filter((item, key) => {
+    let ramenToppings = mainData.filter(item => {
       if (item.style_type === "ramen topping") {
-        return(
-          <Main key={key} item={item} />
-        )
+        return(item)
       }
     })
 
-    let otherMains = mainData.filter((item, key) => {
+    let otherMains = mainData.filter(item => {
       if (item.style_type === null) {
-        return(
-          <Main key={key} item={item} />
-        )
+        return(item)
       }
     })
-    console.log(otherMains)
 
     this.setState( prevState => (
       {
@@ -69,13 +62,34 @@ export default class MainContent extends Component {
       }
     ))
   }
+
+  renderItems = (items) => {
+    let itemsToRender = items.map((item, key) => {
+      return(
+        <Main key={key} item={item} />
+      )
+    })
+    return itemsToRender
+  }
+
   render() {
-    console.log(this.state)
     return(
-        <div className="menu-section-container">
-            {/* {this.state.ramenMains}
-            {this.state.ramenToppings}
-            {this.state.otherMains} */}
+        <div className="menu-section-container"> 
+          {
+            this.state.ramenMains &&
+            this.renderItems(this.state.ramenMains)
+          }
+          
+          <div className="menu-head">Ramen Toppings</div>
+          {
+            this.state.ramenToppings &&
+            this.renderItems(this.state.ramenToppings)
+          }
+          
+          {
+            this.state.otherMains &&
+            this.renderItems(this.state.otherMains)
+          }
 
             {/* <div className="menu-item d-flex flex-column mb-2 dots">
               <span className="content dots-left">Zurutto Ramen</span>
