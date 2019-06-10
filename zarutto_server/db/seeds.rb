@@ -29,7 +29,7 @@ menus = Menu.create([
     course_type: "Appetizers", item_name: "Sesame Cucumber", price: 6, ingredients: nil, details: nil, style_type: nil, pieces: nil
   },
   {
-    course_type: "Appetizers", item_name: "Karaage", price: [4, 7], ingredients: nil, details: "fried chicken", style_type: nil, pieces: [3, 6]
+    course_type: "Appetizers", item_name: "Karaage", price: "4,7", ingredients: nil, details: "fried chicken", style_type: nil, pieces: "3,6"
   },
   {
     course_type: "Appetizers", item_name: "Roast Pork Buns", price: 7, ingredients: nil, details: nil, style_type: nil, pieces: 2
@@ -98,7 +98,7 @@ menus = Menu.create([
     course_type: "Drinks", item_name: "Sapporo", price: 6, ingredients: nil, details: nil, style_type: "draft beer", pieces: nil,
   },
   {
-    course_type: "Drinks", item_name: "Sapporo", price: 7, ingredients: nil, details: nil, style_type: "draft beer", pieces: nil,
+    course_type: "Drinks", item_name: "Asahi", price: 7, ingredients: nil, details: nil, style_type: "draft beer", pieces: nil,
   },
   {
     course_type: "Drinks", item_name: "Kagua Rouge", price: 10, ingredients: nil, details: nil, style_type: "bottled beer", pieces: nil,
@@ -116,7 +116,7 @@ menus = Menu.create([
     course_type: "Drinks", item_name: "Ginga Koge", price: 9, ingredients: nil, details: nil, style_type: "bottled beer", pieces: nil,
   },
   {
-    course_type: "Drinks", item_name: "Daissai", price: [50, 10], ingredients: nil, details: nil, style_type: "sake", pieces: ["bottle", "glass"],
+    course_type: "Drinks", item_name: "Daissai", price: "50,10", ingredients: nil, details: nil, style_type: "sake", pieces: "bottle,glass",
   },
   {
     course_type: "Drinks", item_name: "Nigori", price: 10, ingredients: nil, details: nil, style_type: "sake", pieces: nil,

@@ -94,133 +94,36 @@ export default class DrinkContent extends Component{
               this.state.draftBeer &&
               this.renderDrinks(this.state.draftBeer)
             }
-            {/* <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Sapporo</span>
-                <span className="price ml-auto ml-auto dots-right">$6</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Asahi</span>
-                <span className="price ml-auto ml-auto dots-right">$7</span>
-            </div> */}
 
             <div className="menu-head">Bottled Beers</div>
             {
               this.state.bottledBeer &&
               this.renderDrinks(this.state.bottledBeer)
             }
-            {/* <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Kagua Rouge</span>
-                <span className="price ml-auto ml-auto dots-right">$10</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Kagua Blanc</span>
-                <span className="price ml-auto ml-auto dots-right">$10</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Ozeno Yukidoke Ipa</span>
-                <span className="price ml-auto ml-auto dots-right">$10</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Ozeno White Weizen</span>
-                <span className="price ml-auto ml-auto dots-right">$10</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Ginga Koge</span>
-                <span className="price ml-auto ml-auto dots-right">$9</span>
-            </div> */}
 
             <div className="menu-head">Sake</div>
             {
               this.state.sake &&
               this.renderDrinks(this.state.sake)
             }
-            {/* <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Daissai</span>
-                <span className="price ml-auto ml-auto dots-right">
-                    <span className="item-detail">(bottle)</span>
-                    <span className="price">$50</span>
-                    <span className="item-detail">(glass)</span>
-                    <span className="price">$10</span>
-                </span>
-            </div> */}
-            {/* <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Nigori</span>
-                <span className="price ml-auto ml-auto dots-right">$10</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Kikusui</span>
-                <span className="price ml-auto ml-auto dots-right">$12</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Hakkaisan</span>
-                <span className="price ml-auto ml-auto dots-right">$11</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Hot Sake</span>
-                <span className="price ml-auto ml-auto dots-right">$10</span>
-            </div> */}
 
             <div className="menu-head">White Wine</div>
             {
               this.state.whiteWine &&
               this.renderDrinks(this.state.whiteWine)
             }
-            {/* <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">House Chardonnay</span>
-                <span className="price ml-auto ml-auto dots-right">$6</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Sauvignon Blanc (New Zealand)</span>
-                <span className="price ml-auto ml-auto dots-right">$8</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Pinot Grigio (Italy)</span>
-                <span className="price ml-auto ml-auto dots-right">$8</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Chowa Plum Wine</span>
-                <span className="price ml-auto ml-auto dots-right">$8</span>
-                <div className="item-detail">(Japanese Green Plum)</div>
-            </div> */}
 
             <div className="menu-head">Red Wine</div>
             {
               this.state.redWine &&
               this.renderDrinks(this.state.redWine)
             }
-            {/* <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">House Merlot</span>
-                <span className="price ml-auto ml-auto dots-right">$6</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Cabernet (California)</span>
-                <span className="price ml-auto ml-auto dots-right">$8</span>
-            </div>
-            <div className="menu-item d-flex flex-column mb-2 dots">
-                <span className="dots-left">Pinot Noir (France)</span>
-                <span className="price ml-auto ml-auto dots-right">$8</span>
-            </div> */}
 
-            <div className="menu-head d-flex flex-column mb-2 dots">
-                <span className="dots-left">Soft Drinks</span>
-                <span className="price ml-auto ml-auto dots-right">$3.5</span>
-            </div>
+            <div className="menu-head">Soft Drinks</div>
             {
               this.state.softDrink &&
               this.renderDrinks(this.state.softDrink)
             }
-            {/* <div className="menu-item flex-column mb-2 dots">
-                <span className="soda">Coke</span>
-            </div>
-            <div className="menu-item flex-column mb-2 dots">
-                <span className="soda">Diet Coke</span>
-            </div>
-            <div className="menu-item flex-column mb-2 dots">
-                <span className="soda">Ginger Ale</span>
-            </div>
-            <div className="menu-item flex-column mb-2 dots">
-                <span className="soda">Sparking Water</span>
-            </div> */}
         </div>
     )
   }

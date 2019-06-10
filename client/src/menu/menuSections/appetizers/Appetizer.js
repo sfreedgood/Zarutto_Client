@@ -2,25 +2,40 @@ import React, {Component} from "react"
 import "../../menu.css"
 
 export default class Appetizer extends Component {
-  state = {
+  state = {}
 
+  componentWillMount = () => {
+    let keys = Object.keys(this.props.item)
+    this.sanitizeMultiples(keys, this.props.item)
   }
 
-  // sanitizeMultiples = (keysArr, item) =>{
-  //   keysArr.forEach((key, index) => {
-  //     if (Array.isArray(item[key])) {
-  //       this.setState(prevState => ({
-  //         ...prevState,
-  //         [`set${index}`]: 
-  //       }))
-  //     }
-  //   })
-  // }
+  sanitizeMultiples = (keys, item) =>{
+    keys.forEach(key => {
+      let values = item[key]
+      console.log("TCL: Appetizer -> sanitizeMultiples -> values", values)
+      let splitItems = typeof(values) === "string" && values.split(",")
+      console.log("TCL: Appetizer -> sanitizeMultiples -> splitItems", splitItems)
+      if (values && splitItems.length > 1) {
+        this.setState(() => ({
+          [key]: {
+            bool: true,
+            value: splitItems
+          }
+          }))
+      } else {
+        this.setState(() => ({
+          [key]: {
+            bool: false,
+            value: splitItems[0]
+          }
+        }))
+      }
+    })
+  }
 
   render() {
-    // let keysArr = Object.keys(this.props.item)
-    // this.sanitizeMultiples(keysArr, this.props.item)
     let dots = this.props.item.style_type ? "dots-right-section" : "dots-right"
+    console.log(this.state)
     return (
       <div className="menu-item d-flex flex-row mb-2 dots">
         <span className="content dots-left">
@@ -31,11 +46,15 @@ export default class Appetizer extends Component {
           <span className="item-detail">({this.props.item.details})</span>
         }
         {
-          this.props.item.pieces &&
-          <span className="item-detail">({this.props.item.pieces}pcs)</span>
+          this.state.pieces.bool
+            ? <span className={`price ml-auto ml-auto ${dots}`}>
+              <span className="item-detail">({this.state.pieces.value[0]}pcs)</span>${this.state.price.value[0]} <span className="item-detail">({this.state.pieces.value[1]}pcs)</span>${this.state.price.value[1]}
+              </span>
+            : <span className="item-detail">({this.state.pieces.value}pcs)</span> && <span className={`price ml-auto ml-auto ${dots}`}>${this.props.item.price}</span>
         }
-        <span className={`price ml-auto ml-auto ${dots}`}>${this.props.item.price}</span>
-        
+        {/* {
+          this.state.price.price 
+        } */}
       </div>
     )
   }

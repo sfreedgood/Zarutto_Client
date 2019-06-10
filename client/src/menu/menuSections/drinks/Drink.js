@@ -6,49 +6,51 @@ export default class Drink extends Component {
 
   }
 
-  checkMultiples = (data) => {
-    if (data) {
-      console.log(data.splice(","))
-      console.log(typeof(data))
-    }
-    
-    if (Array.isArray(data)){
-      return true
-    } else {
-      return false
-    }
+  componentWillMount = () => {
+    let keys = Object.keys(this.props.item)
+    this.sanitizeMultiples(keys, this.props.item)
+  }
+
+  sanitizeMultiples = (keys, item) =>{
+    keys.forEach(key => {
+      let values = item[key]
+      let splitItems = typeof(values) === "string" && values.split(",")
+      if (values && splitItems.length > 1) {
+        this.setState(() => ({
+          [key]: {
+            bool: true,
+            value: splitItems
+          }
+          }))
+      } else {
+        this.setState(() => ({
+          [key]: {
+            bool: false,
+            value: splitItems[0]
+          }
+        }))
+      }
+    })
   }
 
   render() {
-    // let keysArr = Object.keys(this.props.item)
-    // this.sanitizeMultiples(keysArr, this.props.item)
+
+    console.log(this.state)
     return (
-      <div className="menu-item d-flex mb-2">
-        <div className="flex-row dots">
-          <span className="content dots-left">
-            {this.props.item.item_name}
-          </span>
-          {
-            this.props.item.details &&
-            <span className="item-detail">({this.props.item.details})</span>
-          }
-          {
-            this.props.item.pieces &&
-            <span className="item-detail">({this.props.item.pieces})</span>
-          }
-          <span className="price ml-auto ml-auto dots-right">
-            {
-              (this.checkMultiples(this.props.item.pieces)
-              && this.checkMultiples(this.props.item.pieces))
-              ? `(${this.props.item.pieces[0]}) $${this.props.item.price[0]} (${this.props.item.pieces[1]}) $${this.props.item.price[1]}`
-              : `$${this.props.item.price}`
-            }
-            
-          </span>
-        </div>
+      <div className="menu-item d-flex flex-row mb-2 dots">
+        <span className="content dots-left">
+          {this.props.item.item_name}
+        </span>
         {
-          this.props.item.ingredients &&
-          <div className="item-detail">({this.props.item.ingredients})</div>
+          this.props.item.details &&
+          <span className="item-detail">({this.props.item.details})</span>
+        }
+        {
+          this.state.pieces.bool
+            ? <span className={"price ml-auto ml-auto dots-right"}>
+              <span className="item-detail">({this.state.pieces.value[0]})</span>${this.state.price.value[0]} <span className="item-detail">({this.state.pieces.value[1]})</span>${this.state.price.value[1]}
+              </span>
+            : <span className="item-detail">({this.state.pieces.value})</span> && <span className={"price ml-auto ml-auto dots-right"}>${this.props.item.price}</span>
         }
       </div>
     )

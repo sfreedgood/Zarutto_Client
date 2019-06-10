@@ -1,6 +1,5 @@
 import React from "react"
 import AppetizerContent from "./AppetizerContent"
-// import AppetizerPrices from "./AppetizerPrices"
 import "../../menu.css"
 
 const Appetizers = () => {
@@ -9,7 +8,6 @@ const Appetizers = () => {
         <div className="container">
           <div className="row">
             <AppetizerContent/>
-            {/* <AppetizerPrices/> */}
             </div>
         </div>
     )
