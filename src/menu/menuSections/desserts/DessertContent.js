@@ -3,6 +3,8 @@ import Dessert from "./Dessert"
 import Axios from "axios"
 import "../../menu.css"
 
+let baseUrl = process.env.REACT_APP_SERVER || 'http://localhost:3000'
+
 export default class DessertContent extends Component {
   state = {}
 
@@ -11,7 +13,7 @@ export default class DessertContent extends Component {
   }
 
   getMenu = async () => {
-    const res = await Axios.get('http://localhost:3000/menus')
+    const res = await Axios.get(`${baseUrl}/menus`)
     let menu = res.data.menu
     this.getDesserts(menu)
   }

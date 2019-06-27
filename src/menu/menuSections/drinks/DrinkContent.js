@@ -3,6 +3,8 @@ import Axios from "axios"
 import "../../menu.css"
 import Drink from "./Drink";
 
+let baseUrl = process.env.REACT_APP_SERVER || 'http://localhost:3000'
+
 export default class DrinkContent extends Component{
   state = {  }
 
@@ -11,14 +13,7 @@ export default class DrinkContent extends Component{
   }
 
   getMenu = async () => {
-    const res = await Axios.get('http://localhost:3000/menus')
-    // fetch('http://localhost:3000/menus')
-    //   .then(data => {
-    //     return data.json()
-    //   }, err => console.log(err))
-    //   .then(parsedData => {
-    //     console.log(parsedData)
-    //   }, err => console.log(err))
+    const res = await Axios.get(`${baseUrl}/menus`)
     let menu = res.data.menu
     this.getDrinks(menu)
   }
@@ -86,7 +81,6 @@ export default class DrinkContent extends Component{
   }
 
   render() {  
-    console.log(this.state.appItems)
     return(
         <div className="menu-section-container">
             <div className="menu-head">Draft Beers</div>

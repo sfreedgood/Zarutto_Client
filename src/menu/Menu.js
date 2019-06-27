@@ -4,10 +4,6 @@ import Appetizers from "./menuSections/appetizers/Appetizers"
 import Mains from "./menuSections/mains/Mains"
 import Desserts from "./menuSections/desserts/Desserts"
 
-import { Container, Row, Col } from 'reactstrap';
-
-//this is just a conceptual outline, may need to adjust going forward
-
 class Menu extends Component {
     constructor(props) {
         super(props);

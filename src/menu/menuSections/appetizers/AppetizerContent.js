@@ -3,6 +3,8 @@ import Axios from "axios"
 import "../../menu.css"
 import Appetizer from "./Appetizer";
 
+let baseUrl = process.env.REACT_APP_SERVER || 'http://localhost:3000'
+
 export default class AppetizerContent extends Component{
   state = {  }
 
@@ -11,7 +13,7 @@ export default class AppetizerContent extends Component{
   }
 
   getMenu = async () => {
-    const res = await Axios.get('http://localhost:3000/menus')
+    const res = await Axios.get(`${baseUrl}/menus`)
     let menu = res.data.menu
     this.getApps(menu)
   }
@@ -55,7 +57,6 @@ export default class AppetizerContent extends Component{
   }
 
   render() {  
-    console.log(this.state.appItems)
     return(
         <div className="menu-section-container">
           <div className="menu-section">

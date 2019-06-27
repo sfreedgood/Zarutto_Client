@@ -34,8 +34,6 @@ export default class Drink extends Component {
   }
 
   render() {
-
-    console.log(this.state)
     return (
       <div className="menu-item d-flex flex-row mb-2 dots">
         <span className="content dots-left">

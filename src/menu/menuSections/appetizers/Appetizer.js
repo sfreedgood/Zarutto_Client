@@ -12,9 +12,7 @@ export default class Appetizer extends Component {
   sanitizeMultiples = (keys, item) =>{
     keys.forEach(key => {
       let values = item[key]
-      console.log("TCL: Appetizer -> sanitizeMultiples -> values", values)
       let splitItems = typeof(values) === "string" && values.split(",")
-      console.log("TCL: Appetizer -> sanitizeMultiples -> splitItems", splitItems)
       if (values && splitItems.length > 1) {
         this.setState(() => ({
           [key]: {
@@ -35,7 +33,6 @@ export default class Appetizer extends Component {
 
   render() {
     let dots = this.props.item.style_type ? "dots-right-section" : "dots-right"
-    console.log(this.state)
     return (
       <div className="menu-item d-flex flex-row mb-2 dots">
         <span className="content dots-left">
@@ -52,9 +49,6 @@ export default class Appetizer extends Component {
               </span>
             : <span className="item-detail">({this.state.pieces.value}pcs)</span> && <span className={`price ml-auto ml-auto ${dots}`}>${this.props.item.price}</span>
         }
-        {/* {
-          this.state.price.price 
-        } */}
       </div>
     )
   }

@@ -3,6 +3,8 @@ import Main from "./Main"
 import Axios from "axios"
 import "../../menu.css"
 
+let baseUrl = process.env.REACT_APP_SERVER || 'http://localhost:3000'
+
 export default class MainContent extends Component {
   state = {}
 
@@ -11,14 +13,7 @@ export default class MainContent extends Component {
   }
 
   getMenu = async () => {
-    const res = await Axios.get('http://localhost:3000/menus')
-    // fetch('http://localhost:3000/menus')
-    //   .then(data => {
-    //     return data.json()
-    //   }, err => console.log(err))
-    //   .then(parsedData => {
-    //     console.log(parsedData)
-    //   }, err => console.log(err))
+    const res = await Axios.get(`${baseUrl}/menus`)
     let menu = res.data.menu
     this.getMains(menu)
   }
